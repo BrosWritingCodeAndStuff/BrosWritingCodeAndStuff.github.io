@@ -1,8 +1,11 @@
 import React from 'react';
 import './square.css';
 
-function Square() {
-    return <div className='input-square' />
+class Square {
+    constructor(character, data, key) {        
+        this.class = character === ' ' ? 'input-space' : ' input-square';
+        return <div className={this.class} data-character={`${data}`} key={`${key}`}></div>
+    }
 }
 
 export default Square;

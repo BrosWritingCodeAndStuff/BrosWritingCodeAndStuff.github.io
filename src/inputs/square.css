@@ -5,6 +5,7 @@
     height: 2em;
     background-color: transparent;
     margin: 1px;
+    line-height: 52px;
 }
 .input-space {
     width: 2em;
@@ -13,22 +14,22 @@
     margin: 1px;
 }
 .rotate-correct {
-    transform: rotateY(180deg);
-    background-color: lightgreen;
-    animation: flip-correct 1s;
+    transform: rotateY(360deg);
+    background-color: darkgreen;
+    animation: flip-correct 0.6s;
     animation-direction: alternate;
 }
 
 .rotate-misplaced {
-    transform: rotateY(180deg);
-    background-color: yellow;
-    animation: flip-misplaced 1s;
+    transform: rotateY(360deg);
+    background-color: rgb(194, 165, 0);
+    animation: flip-misplaced 0.6s;
     animation-direction: alternate;
 }
 .rotate-wrong {
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
     background-color: black;
-    animation: flip-wrong 1s;
+    animation: flip-wrong 0.6s;
     animation-direction: alternate;
 }
 
@@ -38,8 +39,8 @@
         background-color: transparent;
     }
     100% {
-        transform: rotateY(180);
-        background-color: lightgreen;
+        transform: rotateY(360);
+        background-color: darkgreen;
     }
 }
 
@@ -49,8 +50,8 @@
         background-color: transparent;
     }
     100% {
-        transform: rotateY(180);
-        background-color: yellow;
+        transform: rotateY(360);
+        background-color: rgb(194, 165, 0);
     }
 }
 
@@ -60,7 +61,7 @@
         background-color: transparent;
     }
     100% {
-        transform: rotateY(180);
+        transform: rotateY(360);
         background-color: black;
     }
 }
