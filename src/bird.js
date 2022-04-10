@@ -1,10 +1,10 @@
 import React from 'react';
 import './bird.css';
 
-class Bird {
-    constructor(image, callback) {
-        return <img id='bird' src={image} alt='A bird' onClick={callback}/>
-    }    
+class Bird extends React.Component {
+    render() { 
+        return <img id='bird' src={this.props.image} alt='A bird' />
+    }
 }
 
 export default Bird;

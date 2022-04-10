@@ -1,7 +1,11 @@
+* {
+  font-family: 'Cascadia Mono';
+  background-color: #282c34;
+}
+
 .App {
   min-height: 100vh;
   text-align: center;
-  background-color: #282c34;
   color: white;
 }
 
@@ -11,6 +15,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  line-height: 8px;
 }
 
 .App-body {
@@ -20,4 +25,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   text-transform: uppercase;
+}
+
+.App-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
