@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b89b7155.css",
-    "main.js": "/static/js/main.f60f2746.js",
+    "main.css": "/static/css/main.51abc57b.css",
+    "main.js": "/static/js/main.6203c721.js",
     "static/js/787.8edfe0d5.chunk.js": "/static/js/787.8edfe0d5.chunk.js",
     "static/media/golden-plover.jpg": "/static/media/golden-plover.127f9c8f54677ea05eba.jpg",
     "static/media/spotted-crake.jpg": "/static/media/spotted-crake.bde229f8f3701673ccaa.jpg",
@@ -54,12 +54,12 @@
     "static/media/curlew.jpg": "/static/media/curlew.67b72622fbce09c2c6b0.jpg",
     "static/media/scottish-crossbill.jpg": "/static/media/scottish-crossbill.4bf60f6107fb3bea0b8c.jpg",
     "index.html": "/index.html",
-    "main.b89b7155.css.map": "/static/css/main.b89b7155.css.map",
-    "main.f60f2746.js.map": "/static/js/main.f60f2746.js.map",
+    "main.51abc57b.css.map": "/static/css/main.51abc57b.css.map",
+    "main.6203c721.js.map": "/static/js/main.6203c721.js.map",
     "787.8edfe0d5.chunk.js.map": "/static/js/787.8edfe0d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b89b7155.css",
-    "static/js/main.f60f2746.js"
+    "static/css/main.51abc57b.css",
+    "static/js/main.6203c721.js"
   ]
 }
