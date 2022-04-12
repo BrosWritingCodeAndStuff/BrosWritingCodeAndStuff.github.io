@@ -57,7 +57,7 @@ function RefreshGuess() {
 
 function KeyboardEnterCallback() {
   let guessObjs = document.getElementsByName(`guess-${guessNumber}`);
-  if (guessObjs.length > 0 && guesses[guessNumber].length === birdName.length && birdWords.includes(guesses[guessNumber]) && !gameOver) {
+  if (guessObjs.length > 0 && guesses[guessNumber].length === birdName.length && ([...new Set(birdWords)].filter(x => (new Set(Array.from(guesses[guessNumber].split(' '))).has(x)))) && !gameOver) {
     guessNumber++;
     let boxes = guessObjs[0].querySelectorAll('.input-square, .input-space');
     if (boxes.length === guesses[guessNumber - 1].length) {
@@ -65,7 +65,7 @@ function KeyboardEnterCallback() {
       [].forEach.call(boxes, function(element, i) {
         setTimeout(function(){ 
           if (!element.classList.contains('input-space')) {
-            element.innerHTML = guesses[guessNumber - 1][i];
+            element.innerHTML = `<div>${guesses[guessNumber - 1][i]}</div>`;
             let index = uniqueCharacters.indexOf(birdName[i]);
 
             if (birdName[i] === guesses[guessNumber - 1][i] && foundCharactersCount[index] < uniqueCharacterCounts[index]) {

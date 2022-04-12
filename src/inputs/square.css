@@ -7,12 +7,25 @@
     margin: 1px;
     line-height: 60px;
 }
+
+.input-square > div {
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    border: inherit;
+    border-radius: inherit;
+    height: inherit;
+    width: inherit;
+    margin: -2px 0px 0px -2px;
+}
+
 .input-space {
     width: 2em;
     height: 2em;
     background-color: transparent;
     margin: 1px;
 }
+
 .rotate-correct {
     transform: rotateY(360deg);
     background-color: darkgreen;
