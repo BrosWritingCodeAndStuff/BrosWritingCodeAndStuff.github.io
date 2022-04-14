@@ -12,7 +12,9 @@ class Key extends React.Component {
     }
 
     render() {
-        return <button className={this.props.isWide ? 'wide-key' : this.props.isUltra ? 'ultra-thicc' : 'key'} onClick={this.callback}>{this.props.letter}</button>
+        return <button className={this.props.isWide ? 'wide-key' : this.props.isUltra ? 'ultra-thicc' : 'key'} onClick={this.callback} id={`kb-${this.props.letter}`}>
+            {this.props.letter}
+            </button>
     }
 }
 

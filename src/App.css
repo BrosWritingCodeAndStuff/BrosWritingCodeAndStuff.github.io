@@ -4,7 +4,6 @@
 }
 
 .App {
-  min-height: 100vh;
   text-align: center;
   color: white;
 }
@@ -22,9 +21,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   text-transform: uppercase;
+  min-height: 75vh;
 }
 
 .App-footer {

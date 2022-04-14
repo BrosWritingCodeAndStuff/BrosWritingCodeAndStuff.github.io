@@ -5,7 +5,7 @@
     height: 2em;
     background-color: transparent;
     margin: 1px;
-    line-height: 60px;
+    line-height: 2em;
 }
 
 .input-square > div {
@@ -24,6 +24,11 @@
     height: 2em;
     background-color: transparent;
     margin: 1px;
+    line-height: 2em;
+}
+
+.input-square.input-active {
+    border: 2px solid lightgray !important;
 }
 
 .rotate-correct {
