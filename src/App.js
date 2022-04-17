@@ -70,7 +70,9 @@ function KeyboardEnterCallback() {
     guessNumber++;
     gameOver = guesses[guessNum] === birdName || guessNumber > 5;
     if (gameOver) {
-      document.getElementById(guesses[guessNum] === birdName ? 'ol-win' : 'ol-lose').style.display = 'block';
+      setTimeout(function(){
+        document.getElementById(guesses[guessNum] === birdName ? 'ol-win' : 'ol-lose').style.display = 'block';
+      }, birdName.length * 200);
     }
     
     let boxes = guessObjs[0].querySelectorAll('.input-square, .input-space');    
