@@ -494,7 +494,7 @@ const birds = [
     new Bird('snow bunting', snow_bunting, [new Date('2022 November 7')]),
     new Bird('snow goose', snow_goose, [new Date('2022 October 6')]),
     new Bird('song thrush', song_thrush, [new Date('2022 September 28')]),
-    new Bird('sooty shearwater', sooty_shearwater, [new Date('2023 January 3')]),
+    new Bird('sooty shearwater', sooty_shearwater, [new Date('2022 May 5')]),
     new Bird('sparrowhawk', sparrowhawk, [new Date('2022 September 18')]),
     new Bird('spoonbill', spoonbill, [new Date('2022 May 1')]),
     new Bird('spotted crake', spotted_crake, [new Date('2022 May 10')]),
